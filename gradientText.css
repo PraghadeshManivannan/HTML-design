@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+
+  }
+
+
+h1{
+    position: absolute;
+    top:40%;
+    left:30%;
+    font-size: 72px;
+    background: -webkit-linear-gradient( #ee0e0e,#f87c08,#f3e307);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

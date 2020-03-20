@@ -1,0 +1,59 @@
+body{
+    font-family: "Muli",Consolas,monospace;
+    display:flex;
+    justify-content: center;
+    background: #292b28;
+}
+
+p{
+    margin-top: 25%;
+    letter-spacing: 2px;
+    color: cyan;
+    float: left;
+    text-align: center;
+    position: relative;
+    font-weight:800;
+    font-size: 50px;
+    padding-right: 3px;    
+}
+
+p span{
+    width: 100%;
+    position: absolute;
+    background: #343a40;
+    top:0;
+    right:0;
+    border-left : 0.1em solid transparent;
+    -webkit-animation: typing 4s steps(10) forwards, cursor 1s infinite;
+    animation: typing 4s steps(10) forwards, cursor 1s infinite;
+}
+
+@-webkit-keyframes typing{
+    from{
+        width:100%;
+    }
+    to{
+        width:0;
+    }
+}
+
+@-webkit-keyframes cursor{
+    50%{
+        border-color: white;
+    }
+}
+
+@keyframes typing{
+    from{
+        width:100%;
+    }
+    to{
+        width:0;
+    }
+}
+
+@keyframes cursor{
+    50%{
+        border-color: white;
+    }
+}
