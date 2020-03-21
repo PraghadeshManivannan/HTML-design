@@ -1,0 +1,21 @@
+.row{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 500px;
+    border: 2px solid blue;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.row img{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+}
+
+.row:hover img{
+    transform: scale(1.6) rotate(20deg);
+}
